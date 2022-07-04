@@ -136,6 +136,7 @@ ul.features-list {
 
 .testimonials-section{
     background: var(--primary-color);
+    color: white;
 
     li{
         background: #006BD6;
@@ -149,7 +150,38 @@ ul.features-list {
         img{
                 width: 5em;
                 height: 5em;
+                border: 5px solid #006BD6;
+                border-radius: 50%;
+                margin-top: -4.5em;
+
 
             }
     }
 }
+
+h2 {
+    font-size: 2em;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: .8em;
+    margin-bottom: 1 em;
+    border-radius: .3em;
+    border: 1 px solid gray;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
